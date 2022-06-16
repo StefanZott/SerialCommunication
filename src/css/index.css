@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+}
+
+.emulatorContainer {
+    /*->background-color: blue;*/
+}
+
+.emulator {
+    width: 250px;
+    height: 350px;
+    background-color: lightgray;
+}
+
+.display {
+    height: 60px;
+    background-color: greenyellow;
+}
+
+.pad table button {
+    border: none;
+}
+
+.connection {
+    background-color: red;
+}
+
+.configuration {
+    background: green;
+}

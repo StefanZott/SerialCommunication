@@ -5,12 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/index.css">
     <title>PRS 4.2.0</title>
 </head>
-<body>
-    
-</body>
+<body class="w-100">
+    <div class="row h-100">
+        <div class="emulatorContainer d-flex justify-content-end align-items-center col p-0">
 
-<script src="../js/renderer.js"></script>
+            <div class="emulator">
+                <div class="display w-100 border border-bottom-0 border-dark">
+                    <label id="firstTextfield" for=""></label>
+                    <label id="secondTextfield" for=""></label>
+                </div>
+                <div class="pad">
+                    <table class="table table-bordered border-dark h-100">
+                        <tr>
+                            <td><Button type="button" class="btn w-100 h-100">1</Button></td>
+                            <td><Button type="button" class="btn w-100 h-100">2</Button></td>
+                            <td><Button type="button" class="btn w-100 h-100">3</Button></td>
+                            <td><Button type="button" class="btn w-100 h-100">ESC</Button></td>
+                        </tr>
+                        <tr>
+                            <td><Button type="button" class="btn w-100 h-100">4</Button></td>
+                            <td><Button type="button" class="btn w-100 h-100">5</Button></td>
+                            <td><Button type="button" class="btn w-100 h-100">6</Button></td>
+                            <td><Button type="button" class="btn w-100 h-100">OK</Button></td>
+                        </tr>
+                        <tr>
+                            <td><Button type="button" class="btn w-100 h-100">7</Button></td>
+                            <td><Button type="button" class="btn w-100 h-100">8</Button></td>
+                            <td><Button type="button" class="btn w-100 h-100">9</Button></td>
+                            <td><Button type="button" class="btn w-100 h-100">+</Button></td>
+                        </tr>
+                        <tr>
+                            <td><Button type="button" class="btn w-100 h-100">7</Button></td>
+                            <td><Button type="button" class="btn w-100 h-100">8</Button></td>
+                            <td><Button type="button" class="btn w-100 h-100">9</Button></td>
+                            <td><Button type="button" class="btn w-100 h-100">-</Button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+        <div class="connection col-2"></div>
+        <div class="configuration col"></div>
+    </div>
+</body>
 <script src="../js/bootstrap.js"></script>
 </html>
