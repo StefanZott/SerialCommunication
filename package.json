@@ -1,0 +1,26 @@
+{
+  "name": "serialcommunication",
+  "version": "1.0.0",
+  "description": "NPM Packages:\r -",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StefanZott/SerialCommunication.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StefanZott/SerialCommunication/issues"
+  },
+  "homepage": "https://github.com/StefanZott/SerialCommunication#readme",
+  "dependencies": {
+    "electron": "^19.0.4",
+    "serialport": "^10.4.0",
+    "tableify": "^1.1.1"
+  }
+}
